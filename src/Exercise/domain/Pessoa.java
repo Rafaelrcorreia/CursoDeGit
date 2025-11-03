@@ -34,15 +34,16 @@ public class Pessoa {
         System.out.println("Nome: " + this.nome);
         System.out.println("Idade: " + this.idade);
         System.out.println("Altura: " + this.altura);
+        System.out.println("------------------");
     }
 
     // Incrementa idade
-    public void incrementarIdade() {
+    public void IncrentarIdade(){
         this.idade++;
     }
 
     // Atualiza altura
-    public void atualizarAltura(double novaAltura) {
+    public void atualizarAltura(double novaAltura){
         this.altura = novaAltura;
     }
 }

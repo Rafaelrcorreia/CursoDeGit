@@ -14,8 +14,11 @@ public class PessoaTest {
         p3.imprimirDados(); // nome e idade
         p4.imprimirDados(); // todos os atributos
 
-        p3.incrementarIdade(); // idade passa para 25
+        p3.IncrentarIdade(); // idade passa para 25
         p3.atualizarAltura(1.75);
         p3.imprimirDados();
+
+        p4.IncrentarIdade();
+        p4.imprimirDados();
     }
 }
