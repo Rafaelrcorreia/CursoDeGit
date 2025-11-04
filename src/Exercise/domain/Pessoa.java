@@ -38,7 +38,7 @@ public class Pessoa {
     }
 
     // Incrementa idade
-    public void IncrentarIdade(){
+    public void IncrentarIdade(String name){
         this.idade++;
     }
 
