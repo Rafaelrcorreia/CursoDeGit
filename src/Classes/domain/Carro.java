@@ -6,6 +6,6 @@ public class Carro {
     public int ano;
 
     public void ligar(){
-        System.out.println("O carro etá ligado.");
+        System.out.println("O carro está ligado.");
     }
 }
