@@ -8,7 +8,7 @@ public class Jogador {
         this.nome = nome;
     }
 
-    public void imprimir(){
+    public void imprime(){
         System.out.println("Nome do jogador: " + nome);
         if (time != null) {
             System.out.println("Time: " + (time.getNome()));
