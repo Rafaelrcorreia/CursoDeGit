@@ -1,10 +1,10 @@
 package Hheranca.domain;
 
 public class Pessoa {
-    private String nome;
-    private int cpf;
-    private Endereco endereco;
-
+    protected String nome;
+    protected int cpf;
+    protected Endereco endereco;
+    // protected pode ser acessado por classes filhas e classes do mesmo pacote
 
     public  void imprime(){
         System.out.println("Nome: " + this.nome);
