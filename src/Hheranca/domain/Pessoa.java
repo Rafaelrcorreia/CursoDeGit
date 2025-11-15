@@ -1,8 +1,8 @@
 package Hheranca.domain;
 
-public class Pessoa {
+public class Pessoa extends Object {
     protected String nome;
-    protected int cpf;
+    protected String cpf;
     protected Endereco endereco;
     // protected pode ser acessado por classes filhas e classes do mesmo pacote
 
@@ -11,7 +11,7 @@ public class Pessoa {
     public Pessoa(String nome) {
         this.nome = nome;
     }
-    public Pessoa(String nome, int cpf) {
+    public Pessoa(String nome, String cpf) {
         this.nome = nome;
         this.cpf = cpf;
     }
@@ -32,11 +32,11 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 

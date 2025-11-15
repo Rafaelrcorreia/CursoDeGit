@@ -5,10 +5,16 @@ public class Funcionario extends Pessoa {
 
     public Funcionario(String nome) {
         super(nome);
+        // super chama o construtor da classe pai (Pessoa)
+    }
+    public  Funcionario(String nome, String cpf) {
+        super(nome, cpf);
     }
 
     public void imprime(){
+        // Reaproveitando o metodo imprime da classe Pessoa
         super.imprime();
+
         System.out.println("Salário: " + this.salario);
     }
 
