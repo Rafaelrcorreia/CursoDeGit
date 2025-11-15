@@ -6,6 +6,16 @@ public class Pessoa {
     protected Endereco endereco;
     // protected pode ser acessado por classes filhas e classes do mesmo pacote
 
+
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+    public Pessoa(String nome, int cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
     public  void imprime(){
         System.out.println("Nome: " + this.nome);
         System.out.println("CPF: " + this.cpf);
