@@ -5,10 +5,20 @@ public class Pessoa extends Object {
     protected String cpf;
     protected Endereco endereco;
     // protected pode ser acessado por classes filhas e classes do mesmo pacote
+    static {
+        System.out.println("Dentro do bloco de inicialização estático de Pessoa");
+    }
+    {
+        System.out.println("Dentro do bloco de inicialização de instância de Pessoa");
+    }
+    {
+        System.out.println("Dentro do segundo bloco de inicialização de instância de Pessoa");
+    }
 
 
 
     public Pessoa(String nome) {
+        System.out.println("Construtor de Pessoa chamado");
         this.nome = nome;
     }
     public Pessoa(String nome, String cpf) {
