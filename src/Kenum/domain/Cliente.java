@@ -10,9 +10,14 @@ public class Cliente {
         this.tipoCliente = tipoCliente;
         this.tipoPagamento = tipoPagamento;
     }
+
     @Override
     public String toString() {
         return "Cliente: " + nome + ", Tipo: " + tipoCliente.getDescricao() + ", Pagamento: " + tipoPagamento.getDescricao();
+    }
+
+    public TipoPagamento getTipoPagamento() {
+        return tipoPagamento;
     }
 
     public TipoCliente getTipoCliente() {
