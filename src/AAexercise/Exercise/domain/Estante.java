@@ -10,7 +10,7 @@ public class Estante {
     public void ListarLivros(){
         if(livros != null){
             for(Livro livro : livros){
-                System.out.println("Livro: " + livro.getNome() + " - Autor: " + livro.getAutor());
+                System.out.println("Computador: " + livro.getNome() + " - Autor: " + livro.getAutor());
             }
         }
     }
