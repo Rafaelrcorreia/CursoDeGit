@@ -24,7 +24,7 @@ public class test01 {
 
         ArrayList<Integer> Arraylist = new ArrayList<>();
 
-        System.out.println(B.);
+        System.out.println();
 
 
 
